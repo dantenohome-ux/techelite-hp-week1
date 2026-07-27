@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ダミー歯科クリニック｜通いたくなる、やさしい歯医者さん</title>
+    <meta name="description" content="ダミー歯科クリニックは、一般歯科・予防歯科・審美歯科を中心に、痛みの少ない治療とていねいなカウンセリングを心がける歯科医院です。">
+
+    <!-- ファビコン（画像は img/ に後から配置してください） -->
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- OGP（SNSシェア時のカード表示用。URL・画像はダミーです） -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ダミー歯科クリニック">
+    <meta property="og:title" content="ダミー歯科クリニック｜通いたくなる、やさしい歯医者さん">
+    <meta property="og:description" content="ダミー歯科クリニックは、一般歯科・予防歯科・審美歯科を中心に、痛みの少ない治療とていねいなカウンセリングを心がける歯科医院です。">
+    <meta property="og:url" content="https://dummy-dental.example.com/">
+    <meta property="og:image" content="https://dummy-dental.example.com/img/ogp.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="ダミー歯科クリニックの外観">
+    <meta property="og:locale" content="ja_JP">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ダミー歯科クリニック｜通いたくなる、やさしい歯医者さん">
+    <meta name="twitter:description" content="ダミー歯科クリニックは、一般歯科・予防歯科・審美歯科を中心に、痛みの少ない治療とていねいなカウンセリングを心がける歯科医院です。">
+    <meta name="twitter:image" content="https://dummy-dental.example.com/img/ogp.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Free（アイコンライブラリ／CSSのみ・JS不要） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============================= 1. ヘッダー（固定70px） ============================= -->
+    <header class="header">
+        <div class="header__inner container">
+            <a class="header__logo" href="#top">
+                <img class="header__logo-img" src="img/logo.svg" alt="ダミー歯科クリニック" width="180" height="40">
+            </a>
+
+            <nav class="header__nav" aria-label="メインナビゲーション">
+                <ul class="header__menu">
+                    <li class="header__item"><a class="header__link" href="#services">診療内容</a></li>
+                    <li class="header__item"><a class="header__link" href="#overview">クリニック概要</a></li>
+                    <li class="header__item"><a class="header__link" href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+            <!-- SP用ハンバーガー：見た目のみ（JSなしのため開閉はしません） -->
+            <div class="header__burger" aria-hidden="true">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- ============================= 2. ヒーロー ============================= -->
+        <section class="hero">
+            <div class="hero__inner container">
+                <p class="hero__eyebrow">DUMMY DENTAL CLINIC</p>
+                <h1 class="hero__title">通いたくなる、<br>やさしい歯医者さん。</h1>
+                <p class="hero__lead">
+                    痛みの少ない治療と、納得できるまでのカウンセリング。<br>
+                    お子さまからご年配の方まで、地域のみなさまのお口の健康を支えます。
+                </p>
+                <a class="button button--primary button--lg hero__cta" href="#contact">初診のご予約</a>
+            </div>
+        </section>
+
+        <!-- ============================= 3. 診療内容 ============================= -->
+        <section class="services section" id="services">
+            <div class="container">
+                <h2 class="section__title">診療内容</h2>
+                <p class="section__lead">
+                    保険診療から自由診療まで、一人ひとりのお口の状態に合わせた治療をご提案します。
+                </p>
+
+                <ul class="services__list">
+                    <li class="services__item">
+                        <article class="card">
+                            <img class="card__thumb" src="img/service-01.jpg" alt="一般歯科の診療風景" width="800" height="600">
+                            <div class="card__body">
+                                <h3 class="card__title">一般歯科</h3>
+                                <p class="card__text">
+                                    むし歯・歯周病の治療を中心に、できるだけ歯を削らず・抜かない治療を心がけています。
+                                    治療前には必ず内容と費用をご説明します。
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="services__item">
+                        <article class="card">
+                            <img class="card__thumb" src="img/service-02.jpg" alt="歯のクリーニングを受ける患者さん" width="800" height="600">
+                            <div class="card__body">
+                                <h3 class="card__title">予防・クリーニング</h3>
+                                <p class="card__text">
+                                    歯科衛生士による定期的なクリーニングとブラッシング指導で、
+                                    「治す」から「守る」へ。3〜6か月ごとの検診をおすすめしています。
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="services__item">
+                        <article class="card">
+                            <img class="card__thumb" src="img/service-03.jpg" alt="ホワイトニング後の白い歯" width="800" height="600">
+                            <div class="card__body">
+                                <h3 class="card__title">審美・ホワイトニング</h3>
+                                <p class="card__text">
+                                    白く自然な見た目を目指すセラミック治療やホワイトニング。
+                                    ご希望とご予算をうかがいながら、無理のないプランをご提案します。
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ============================= 4. クリニック概要 ============================= -->
+        <section class="overview section section--light" id="overview">
+            <div class="container">
+                <h2 class="section__title">クリニック概要</h2>
+                <p class="section__lead">
+                    駅から徒歩3分。土曜も18時まで診療しています。
+                </p>
+
+                <dl class="overview__list">
+                    <dt class="overview__term">医院名</dt>
+                    <dd class="overview__desc">ダミー歯科クリニック</dd>
+
+                    <dt class="overview__term">院長</dt>
+                    <dd class="overview__desc">歯科 太郎（歯学博士）</dd>
+
+                    <dt class="overview__term">所在地</dt>
+                    <dd class="overview__desc">〒000-0000　東京都ダミー区サンプル町1-2-3　ダミービル2F</dd>
+
+                    <dt class="overview__term">アクセス</dt>
+                    <dd class="overview__desc">ダミー線「サンプル駅」東口より徒歩3分／提携駐車場3台あり</dd>
+
+                    <dt class="overview__term">診療科目</dt>
+                    <dd class="overview__desc">一般歯科／小児歯科／予防歯科／審美歯科／口腔外科</dd>
+
+                    <dt class="overview__term">診療時間</dt>
+                    <dd class="overview__desc">
+                        平日 9:30〜13:00 / 14:30〜19:00<br>
+                        土曜 9:30〜13:00 / 14:30〜18:00
+                    </dd>
+
+                    <dt class="overview__term">休診日</dt>
+                    <dd class="overview__desc">日曜・祝日</dd>
+
+                    <dt class="overview__term">設備</dt>
+                    <dd class="overview__desc">歯科用CT／口腔内カメラ／個室診療室／バリアフリー対応</dd>
+                </dl>
+            </div>
+        </section>
+
+        <!-- ============================= 5. お問い合わせ導線 ============================= -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">お問い合わせ</h2>
+                <p class="section__lead">
+                    ご予約・ご相談はお電話またはメールで承ります。<br>
+                    「相談だけ」でもお気軽にどうぞ。
+                </p>
+
+                <div class="contact__methods">
+                    <div class="contact__method">
+                        <p class="contact__label">
+                            <i class="fa-solid fa-phone contact__icon" aria-hidden="true"></i>お電話でのご予約
+                        </p>
+                        <a class="contact__link contact__link--tel" href="tel:0312345678">03-1234-5678</a>
+                        <p class="contact__note">受付時間：平日 9:30〜19:00／土曜 9:30〜18:00</p>
+                    </div>
+
+                    <div class="contact__method">
+                        <p class="contact__label">
+                            <i class="fa-solid fa-envelope contact__icon" aria-hidden="true"></i>メールでのお問い合わせ
+                        </p>
+                        <a class="contact__link contact__link--mail" href="mailto:info@dummy-dental.example.com">info@dummy-dental.example.com</a>
+                        <p class="contact__note">2営業日以内にご返信いたします</p>
+                    </div>
+                </div>
+
+                <a class="button button--primary button--lg contact__cta" href="mailto:info@dummy-dental.example.com">メールで予約を申し込む</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================= 6. フッター ============================= -->
+    <footer class="footer">
+        <div class="footer__inner container">
+
+            <!-- 1列目：会社情報 -->
+            <div class="footer__col footer__col--info">
+                <p class="footer__name">ダミー歯科クリニック</p>
+                <p class="footer__address">
+                    <i class="fa-solid fa-location-dot footer__icon" aria-hidden="true"></i>〒000-0000　東京都渋谷区〇〇1-2-3　サンプルビル2F
+                </p>
+                <p class="footer__info">
+                    <i class="fa-solid fa-phone footer__icon" aria-hidden="true"></i><a class="footer__link" href="tel:0312345678">03-1234-5678</a>
+                </p>
+                <p class="footer__info">
+                    <i class="fa-solid fa-clock footer__icon" aria-hidden="true"></i>平日 9:30〜19:00 ／ 土曜 9:30〜18:00
+                </p>
+                <p class="footer__info">
+                    <i class="fa-solid fa-calendar-xmark footer__icon" aria-hidden="true"></i>休診日：日曜・祝日
+                </p>
+            </div>
+
+            <!-- 2列目：サイトマップ -->
+            <nav class="footer__col footer__col--nav" aria-label="サイトマップ">
+                <p class="footer__heading">サイトマップ</p>
+                <ul class="footer__menu">
+                    <li class="footer__item"><a class="footer__link" href="#top">ホーム</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#services">診療内容</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#overview">クリニック概要</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+            <!-- 3列目：SNS（Font Awesome のブランドアイコン。リンク先はダミーです） -->
+            <div class="footer__col footer__col--sns">
+                <p class="footer__heading">SNS</p>
+                <ul class="footer__sns">
+                    <li class="footer__sns-item">
+                        <a class="footer__sns-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram（新しいタブで開きます）">
+                            <i class="fa-brands fa-instagram footer__sns-icon" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer__sns-item">
+                        <a class="footer__sns-link" href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X（旧Twitter・新しいタブで開きます）">
+                            <i class="fa-brands fa-x-twitter footer__sns-icon" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer__sns-item">
+                        <a class="footer__sns-link" href="https://line.me/" target="_blank" rel="noopener noreferrer" aria-label="LINE公式アカウント（新しいタブで開きます）">
+                            <i class="fa-brands fa-line footer__sns-icon" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom container">
+            <p class="footer__copyright">&copy; 2026 Dummy Dental Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
